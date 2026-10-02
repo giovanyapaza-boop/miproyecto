@@ -1,0 +1,3 @@
+Mi Primer Sitio Web
+
+Este sitio web será para una tienda de herramientas eléctricas y manuales, dirigido a personas que necesitan encontrar herramientas para trabajos de construcción, reparación y mantenimiento. La página permitirá conocer los productos que ofrece la tienda, sus características y formas de contacto, para que los clientes puedan revisar las opciones disponibles antes de realizar su compra.
