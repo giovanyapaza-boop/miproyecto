@@ -23,3 +23,26 @@ header {
 header h1 {
     font-size: 2.2rem;
 }
+
+/* Menú de navegación */
+nav {
+    background-color: #146b63;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4b942;
+}
