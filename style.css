@@ -46,3 +46,30 @@ nav a {
 nav a:hover {
     color: #f4b942;
 }
+
+/* Contenido principal */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #0b3d3a;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+section p {
+    color: #555;
+    font-size: 1.1rem;
+}
