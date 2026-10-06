@@ -7,7 +7,19 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f4f3;
-    color: #099c7c;
+    background-color: #018f48;
+    color: #e5e9e8;
     line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #0b3d3a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
 }
