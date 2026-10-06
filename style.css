@@ -1,0 +1,13 @@
+/* Congiguracion general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f3;
+    color: #099c7c;
+    line-height: 1.6;
+}
