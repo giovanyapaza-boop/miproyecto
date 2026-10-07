@@ -1,4 +1,5 @@
-/* Congiguracion general */
+/* Configuración general */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ body {
 }
 
 /* Encabezado */
+
 header {
     background-color: #0b3d3a;
     color: white;
@@ -25,6 +27,7 @@ header h1 {
 }
 
 /* Menú de navegación */
+
 nav {
     background-color: #146b63;
     padding: 12px;
@@ -48,6 +51,7 @@ nav a:hover {
 }
 
 /* Contenido principal */
+
 main {
     max-width: 1000px;
     margin: 40px auto;
@@ -75,6 +79,7 @@ section p {
 }
 
 /* Pie de página */
+
 footer {
     background-color: #0b3d3a;
     color: white;
@@ -83,8 +88,10 @@ footer {
     margin-top: 50px;
 }
 
-/* agregar media de ajuste de pantalla */
-@media (max-width: 600px){
+/* Diseño para celulares */
+
+@media (max-width: 600px) {
+
     nav {
         flex-direction: column;
         align-items: center;
