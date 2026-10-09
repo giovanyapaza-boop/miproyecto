@@ -88,6 +88,30 @@ footer {
     margin-top: 50px;
 }
 
+/* Modo oscuro */
+
+#btn-tema {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background-color: #0b3d3a;
+    color: #ffffff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#btn-tema:hover {
+    background-color: #146b63;
+    transform: scale(1.08);
+}
+
+#btn-tema:focus-visible {
+    outline: 3px solid #f4b942;
+    outline-offset: 4px;
+}
+
 /* Diseño para celulares */
 
 @media (max-width: 600px) {
