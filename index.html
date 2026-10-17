@@ -150,11 +150,120 @@
                     <p class="precio">270 Bs.</p>
                 </div>
             </div>
-
         </div>
-
     </main>
 
+    <section class="nosotros container">
+        <div class="nosotros">
+            <img src="imagenes/fachada.jpg" alt="">
+            <h3><span>SOBRE NOSOTROS</span></h3>
+            <p>Somos una microempresa de Oruro con 16 años de experiencia en la importación y venta de herramientas eléctricas de diferentes marcas. Comenzamos en una pequeña caseta y hoy contamos con una tienda en una zona comercial y un almacén de distribución. Nos caracterizamos por ofrecer productos de calidad, precios competitivos y una atención comprometida con la satisfacción de nuestros clientes.</p>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagenes/mision.png" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Misión</h3>
+                <p>
+                    Ofrecer herramientas eléctricas de calidad, de diferentes marcas y a precios competitivos, brindando una atención amable y confiable que satisfaga las necesidades de nuestros clientes.
+                </p>
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagenes/orientacion.png" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Visión</h3>
+                <p>
+                    Ser una importadora reconocida en Oruro y a nivel nacional por la calidad de nuestros productos, nuestros precios accesibles y nuestro compromiso con el crecimiento y la satisfacción de nuestros clientes.
+                </p>
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagenes/integridad.png" alt="">
+            </div>
+            <div class="icon-text">
+                <h3>Valores</h3>
+                <p>
+                    En Importadora Gikar nos guiamos por la responsabilidad, honestidad, compromiso, respeto y calidad. Trabajamos para brindar una atención confiable, ofrecer productos que cumplan las expectativas de nuestros clientes y construir relaciones duraderas basadas en la confianza.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contacto container" id="contacto">
+        <div class="contacto-titulo">
+            <h2>Contáctanos</h2>
+            <p>
+                ¿Buscas una herramienta o necesitas más información?
+                Escríbenos y con gusto te atenderemos.
+            </p>
+        </div>
+
+        <form class="formulario-contacto" action="#" method="post">
+
+            <div class="campo">
+                <label for="nombre">Nombre completo</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="correo">Correo electrónico</label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="telefono">Teléfono</label>
+                <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="Ej. +591 11111111"
+                >
+            </div>
+
+            <div class="campo">
+                <label for="asunto">Asunto</label>
+                <select id="asunto" name="asunto" required>
+                    <option value="">Selecciona un asunto</option>
+                    <option value="consulta-producto">Consulta sobre un producto</option>
+                    <option value="precios">Consulta de precios</option>
+                    <option value="distribucion">Distribución y ventas</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="campo campo-mensaje">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Escribe tu consulta aquí..."
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="btn-contacto">
+                Enviar mensaje
+            </button>
+        </form>
+    </section>
     <footer>
         <p>&copy; 2026 Giovany Apaza. Todos los derechos reservados.</p>
     </footer>
