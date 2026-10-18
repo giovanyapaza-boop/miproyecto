@@ -451,6 +451,28 @@ img {
     background-color: #083D37;
 }
 
+.mensaje-error {
+    display: none;
+    padding: 12px 15px;
+    background-color: #FDE8E8;
+    color: #B91C1C;
+    border-left: 4px solid #B91C1C;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.mensaje-error.visible {
+    display: block;
+}
+
+.mensaje-error.exito {
+    display: block;
+    background-color: #D1FAE5;
+    color: #065F46;
+    border-left-color: #065F46;
+}
+
 footer {
     background-color: #0F544D;
     color: #FFFFFF;
