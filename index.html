@@ -3,281 +3,295 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tienda de Herramientas</title>
+    <meta name="description" content="Importadora Gikar - Venta de herramientas eléctricas de calidad en Oruro, Bolivia. Taladros, llaves de impacto, amoladoras y más.">
+    <title>Tienda de Herramientas | Importadora Gikar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-    
-<header class="header">
+    <header class="header" id="inicio">
 
-    <div class="menu container">
+        <div class="menu container">
 
-        <a href="#" class="logo">
-            <img src="imagenes/logo1.png" alt="Logo de Importadora Gikar">
-        </a>
+            <a href="#inicio" class="logo">
+                <img src="imagenes/logo1.png" alt="Logo de Importadora Gikar">
+            </a>
 
-        <input type="checkbox" id="menu">
+            <input type="checkbox" id="menu">
+            <label for="menu" class="menu-label">
+                <img src="imagenes/menu.png" class="menu-icono" alt="Abrir menú">
+            </label>
 
-        <label for="menu" class="menu-label">
-            <img src="imagenes/menu.png" class="menu-icono" alt="Abrir menú">
-        </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#lista-1">Catálogo</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
 
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#lista-1">Catálogo</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-
-    </div>
-
-    <div class="header-content container">
-
-        <div class="header-img">
-            <img src="imagenes/img1.png" alt="Herramientas eléctricas">
         </div>
 
-        <div class="header-txt">
-            <h1>Ofertas especiales</h1>
-            <p>Adquiere las mejores herramientas</p>
-            <a href="#lista-1" class="btn-1">Ver productos</a>
+        <div class="header-content container">
+
+            <div class="header-img">
+                <img src="imagenes/img1.png" alt="Herramientas eléctricas">
+            </div>
+
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>Adquiere las mejores herramientas</p>
+                <a href="#lista-1" class="btn-1">Ver productos</a>
+            </div>
+
         </div>
 
-    </div>
+    </header>
 
-</header>
+    <main>
 
-
-    <section class="ofert container">
-        <div class="ofert-1">
-            <div class="ofert-img">
-                <img src="imagenes/f1.png" alt="">
-            </div>
-            <div class="ofert-txt">
-                <h3>Taladro Inalámbrico</h3>
-                <p>Voltaje: 20V</p>
-                <p>Velocidad de No-carga:0-400/0-1500/minMax. torsión:45NM</p>
-                <p>Capacidad de mandril:0.8-10mmAjustes de par:15+1</p>
-                <a href="#" class="btn-2">informacion</a>
-            </div>
-        </div>
-        <div class="ofert-1">
-            <div class="ofert-img">
-                <img src="imagenes/f2.png" alt="">
-            </div>
-            <div class="ofert-txt">
-                <h3>Llave de impacto inalámbrica</h3>
-                <p>Motor sin escobillasVoltaje de taladro: 20V</p>
-                <p>Hex Encastre:1/4"Velocidad de No-carga:0-2400/min</p>
-                <p>Tasa de impacto:0-3550bpmMax. torque:200NM</p>
-                <a href="#" class="btn-2">informacion</a>
-            </div>
-        </div>
-        <div class="ofert-1">
-            <div class="ofert-img">
-                <img src="imagenes/f3.png" alt="">
-            </div>
-            <div class="ofert-txt">
-                <h3>Amoladora Angular inalámbrica</h3>
-                <p>Voltios:20V</p>
-                <p>Velocidad sin carga: 8500/min</p>
-                <p>Diametro de disco 100mm</p>
-                <a href="#" class="btn-2">informacion</a>
-            </div>
-        </div>
-    </section>
-
-    <main class="products container" id="lista-1">
-
-        <h2>Productos</h2>
-
-        <div class="product-content">
-
-            <div class="product">
-                <img src="imagenes/f1.png" alt="">
-                <div class="product.txt">
-                    <h3><span>CDLI2002</span></h3>
-                    <h4>Taladro inalámbrico</h4>
+        <section class="ofert container">
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="imagenes/f1.png" alt="Taladro inalámbrico" loading="lazy">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Taladro Inalámbrico</h3>
                     <p>Voltaje: 20V</p>
-                    <p>Velocidad de No-carga:0-400/0-1500/minMax. torsión:45NM</p>
-                    <p>Capacidad de mandril:0.8-10mmAjustes de par:15+1</p>
-                    <p class="precio">570 Bs.</p>
+                    <p>Velocidad de No-carga: 0-400/0-1500/min<br>Max. torsión: 45NM</p>
+                    <p>Capacidad de mandril: 0.8-10mm<br>Ajustes de par: 15+1</p>
+                    <a href="#" class="btn-2">Información</a>
                 </div>
             </div>
-            <div class="product">
-                <img src="imagenes/f2.png" alt="">
-                <div class="product.txt">
-                    <h3><span>CIRLI2002</span></h3>
-                    <h4>Llave de impacto inalámbrica</h4>
-                    <p>Motor sin escobillasVoltaje de taladro: 20V</p>
-                    <p>Hex Encastre:1/4"Velocidad de No-carga:0-2400/min</p>
-                    <p>Tasa de impacto:0-3550bpmMax. torque:200NM</p>
-                    <p class="precio">850 Bs.</p>
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="imagenes/f2.png" alt="Llave de impacto inalámbrica" loading="lazy">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Llave de impacto inalámbrica</h3>
+                    <p>Motor sin escobillas<br>Voltaje de taladro: 20V</p>
+                    <p>Hex Encastre: 1/4"<br>Velocidad de No-carga: 0-2400/min</p>
+                    <p>Tasa de impacto: 0-3550bpm<br>Max. torque: 200NM</p>
+                    <a href="#" class="btn-2">Información</a>
                 </div>
             </div>
-            <div class="product">
-                <img src="imagenes/f3.png" alt="">
-                <div class="product.txt">
-                    <h3><span>CAGLI1003</span></h3>
-                    <h4>Amoladora Angular inalámbrica</h4>
-                    <p>Voltios:20V</p>
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="imagenes/f3.png" alt="Amoladora Angular inalámbrica" loading="lazy">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Amoladora Angular inalámbrica</h3>
+                    <p>Voltios: 20V</p>
                     <p>Velocidad sin carga: 8500/min</p>
-                    <p>Diametro de disco 100mm</p>
-                    <p class="precio">400 Bs.</p>
+                    <p>Diámetro de disco: 100mm</p>
+                    <a href="#" class="btn-2">Información</a>
                 </div>
             </div>
-            <div class="product">
-                <img src="imagenes/f4.png" alt="">
-                <div class="product.txt">
-                    <h3><span>CRSLI1151</span></h3>
-                    <h4>Sierra de sable inalámbrica</h4>
-                    <p>Voltaje: 20V</p>
-                    <p>Velocidad de No-carga:0-3200/min</p>
-                    <p>Capacidad de corte: Metal: 8 mm Madera: 115 mm</p>
-                    <p class="precio">570 Bs.</p>
+        </section>
+
+        <section class="products container" id="lista-1">
+
+            <h2>Productos</h2>
+
+            <div class="product-content">
+
+                <div class="product">
+                    <img src="imagenes/f1.png" alt="Taladro inalámbrico CDLI2002" loading="lazy">
+                    <div class="product-txt">
+                        <h3><span>CDLI2002</span></h3>
+                        <h4>Taladro inalámbrico</h4>
+                        <p>Voltaje: 20V</p>
+                        <p>Velocidad de No-carga: 0-400/0-1500/min<br>Max. torsión: 45NM</p>
+                        <p>Capacidad de mandril: 0.8-10mm<br>Ajustes de par: 15+1</p>
+                        <p class="precio">570 Bs.</p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="imagenes/f2.png" alt="Llave de impacto inalámbrica CIRLI2002" loading="lazy">
+                    <div class="product-txt">
+                        <h3><span>CIRLI2002</span></h3>
+                        <h4>Llave de impacto inalámbrica</h4>
+                        <p>Motor sin escobillas<br>Voltaje de taladro: 20V</p>
+                        <p>Hex Encastre: 1/4"<br>Velocidad de No-carga: 0-2400/min</p>
+                        <p>Tasa de impacto: 0-3550bpm<br>Max. torque: 200NM</p>
+                        <p class="precio">850 Bs.</p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="imagenes/f3.png" alt="Amoladora Angular inalámbrica CAGLI1003" loading="lazy">
+                    <div class="product-txt">
+                        <h3><span>CAGLI1003</span></h3>
+                        <h4>Amoladora Angular inalámbrica</h4>
+                        <p>Voltios: 20V</p>
+                        <p>Velocidad sin carga: 8500/min</p>
+                        <p>Diámetro de disco: 100mm</p>
+                        <p class="precio">400 Bs.</p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="imagenes/f4.png" alt="Sierra de sable inalámbrica CRSLI1151" loading="lazy">
+                    <div class="product-txt">
+                        <h3><span>CRSLI1151</span></h3>
+                        <h4>Sierra de sable inalámbrica</h4>
+                        <p>Voltaje: 20V</p>
+                        <p>Velocidad de No-carga: 0-3200/min</p>
+                        <p>Capacidad de corte: Metal: 8 mm<br>Madera: 115 mm</p>
+                        <p class="precio">570 Bs.</p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="imagenes/f5.png" alt="Sierra circular inalámbrica CSLI1401" loading="lazy">
+                    <div class="product-txt">
+                        <h3><span>CSLI1401</span></h3>
+                        <h4>Sierra circular inalámbrica</h4>
+                        <p>Voltaje: 20V</p>
+                        <p>Velocidad de No-carga: 3600rpm</p>
+                        <p>Diámetro de la hoja: 140mm</p>
+                        <p class="precio">630 Bs.</p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="imagenes/f6.png" alt="Lijadora rotorbital inalámbrica CROSLI2001" loading="lazy">
+                    <div class="product-txt">
+                        <h3><span>CROSLI2001</span></h3>
+                        <h4>Lijadora rotorbital inalámbrica</h4>
+                        <p>Voltaje: 20V</p>
+                        <p>Velocidad de No-carga: 10000/min</p>
+                        <p>Base: 125mm</p>
+                        <p class="precio">270 Bs.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="nosotros container" id="nosotros">
+            <div class="nosotros-info">
+                <img src="imagenes/fachada.jpg" alt="Fachada de Importadora Gikar" loading="lazy">
+                <h3><span>SOBRE NOSOTROS</span></h3>
+                <p>
+                    Somos una microempresa de Oruro con 16 años de experiencia en la importación y venta de herramientas eléctricas de diferentes marcas. Comenzamos en una pequeña caseta y hoy contamos con una tienda en una zona comercial y un almacén de distribución. Nos caracterizamos por ofrecer productos de calidad, precios competitivos y una atención comprometida con la satisfacción de nuestros clientes.
+                </p>
+            </div>
+
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="imagenes/mision.png" alt="Icono de misión" loading="lazy">
+                </div>
+                <div class="icon-text">
+                    <h3>Misión</h3>
+                    <p>
+                        Ofrecer herramientas eléctricas de calidad, de diferentes marcas y a precios competitivos, brindando una atención amable y confiable que satisfaga las necesidades de nuestros clientes.
+                    </p>
                 </div>
             </div>
-            <div class="product">
-                <img src="imagenes/f5.png" alt="">
-                <div class="product.txt">
-                    <h3><span>CSLI1401</span></h3>
-                    <h4>Sierra circular inalámbrica</h4>
-                    <p>Voltaje: 20V</p>
-                    <p>Velocidad de No-carga:3600rpm</p>
-                    <p>Diámetro de la hoja:140mm</p>
-                    <p class="precio">630 Bs.</p>
+
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="imagenes/orientacion.png" alt="Icono de visión" loading="lazy">
+                </div>
+                <div class="icon-text">
+                    <h3>Visión</h3>
+                    <p>
+                        Ser una importadora reconocida en Oruro y a nivel nacional por la calidad de nuestros productos, nuestros precios accesibles y nuestro compromiso con el crecimiento y la satisfacción de nuestros clientes.
+                    </p>
                 </div>
             </div>
-            <div class="product">
-                <img src="imagenes/f6.png" alt="">
-                <div class="product.txt">
-                    <h3><span>CROSLI2001</span></h3>
-                    <h4>Lijadora rotorbital inalámbrica</h4>
-                    <p>Voltaje: 20V</p>
-                    <p>Velocidad de No-carga:10000/min</p>
-                    <p>Base: 125mm</p>
-                    <p class="precio">270 Bs.</p>
+
+            <div class="icon-1">
+                <div class="icon-img">
+                    <img src="imagenes/integridad.png" alt="Icono de valores" loading="lazy">
+                </div>
+                <div class="icon-text">
+                    <h3>Valores</h3>
+                    <p>
+                        En Importadora Gikar nos guiamos por la responsabilidad, honestidad, compromiso, respeto y calidad. Trabajamos para brindar una atención confiable, ofrecer productos que cumplan las expectativas de nuestros clientes y construir relaciones duraderas basadas en la confianza.
+                    </p>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="contacto container" id="contacto">
+            <div class="contacto-titulo">
+                <h2>Contáctanos</h2>
+                <p>
+                    ¿Buscas una herramienta o necesitas más información?
+                    Escríbenos y con gusto te atenderemos.
+                </p>
+            </div>
+
+            <form class="formulario-contacto" action="#" method="post">
+
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@correo.com"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="Ej. +591 11111111"
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona un asunto</option>
+                        <option value="consulta-producto">Consulta sobre un producto</option>
+                        <option value="precios">Consulta de precios</option>
+                        <option value="distribucion">Distribución y ventas</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="campo campo-mensaje">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        placeholder="Escribe tu consulta aquí..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn-contacto">
+                    Enviar mensaje
+                </button>
+            </form>
+        </section>
+
     </main>
 
-    <section class="nosotros container">
-        <div class="nosotros">
-            <img src="imagenes/fachada.jpg" alt="">
-            <h3><span>SOBRE NOSOTROS</span></h3>
-            <p>Somos una microempresa de Oruro con 16 años de experiencia en la importación y venta de herramientas eléctricas de diferentes marcas. Comenzamos en una pequeña caseta y hoy contamos con una tienda en una zona comercial y un almacén de distribución. Nos caracterizamos por ofrecer productos de calidad, precios competitivos y una atención comprometida con la satisfacción de nuestros clientes.</p>
-        </div>
-        <div class="icon-1">
-            <div class="icon-img">
-                <img src="imagenes/mision.png" alt="">
-            </div>
-            <div class="icon-text">
-                <h3>Misión</h3>
-                <p>
-                    Ofrecer herramientas eléctricas de calidad, de diferentes marcas y a precios competitivos, brindando una atención amable y confiable que satisfaga las necesidades de nuestros clientes.
-                </p>
-            </div>
-        </div>
-        <div class="icon-1">
-            <div class="icon-img">
-                <img src="imagenes/orientacion.png" alt="">
-            </div>
-            <div class="icon-text">
-                <h3>Visión</h3>
-                <p>
-                    Ser una importadora reconocida en Oruro y a nivel nacional por la calidad de nuestros productos, nuestros precios accesibles y nuestro compromiso con el crecimiento y la satisfacción de nuestros clientes.
-                </p>
-            </div>
-        </div>
-        <div class="icon-1">
-            <div class="icon-img">
-                <img src="imagenes/integridad.png" alt="">
-            </div>
-            <div class="icon-text">
-                <h3>Valores</h3>
-                <p>
-                    En Importadora Gikar nos guiamos por la responsabilidad, honestidad, compromiso, respeto y calidad. Trabajamos para brindar una atención confiable, ofrecer productos que cumplan las expectativas de nuestros clientes y construir relaciones duraderas basadas en la confianza.
-                </p>
-            </div>
-        </div>
-    </section>
-    
-    <section class="contacto container" id="contacto">
-        <div class="contacto-titulo">
-            <h2>Contáctanos</h2>
-            <p>
-                ¿Buscas una herramienta o necesitas más información?
-                Escríbenos y con gusto te atenderemos.
-            </p>
-        </div>
-
-        <form class="formulario-contacto" action="#" method="post">
-
-            <div class="campo">
-                <label for="nombre">Nombre completo</label>
-                <input
-                    type="text"
-                    id="nombre"
-                    name="nombre"
-                    placeholder="Escribe tu nombre"
-                    required
-                >
-            </div>
-
-            <div class="campo">
-                <label for="correo">Correo electrónico</label>
-                <input
-                    type="email"
-                    id="correo"
-                    name="correo"
-                    placeholder="ejemplo@correo.com"
-                    required
-                >
-            </div>
-
-            <div class="campo">
-                <label for="telefono">Teléfono</label>
-                <input
-                    type="tel"
-                    id="telefono"
-                    name="telefono"
-                    placeholder="Ej. +591 11111111"
-                >
-            </div>
-
-            <div class="campo">
-                <label for="asunto">Asunto</label>
-                <select id="asunto" name="asunto" required>
-                    <option value="">Selecciona un asunto</option>
-                    <option value="consulta-producto">Consulta sobre un producto</option>
-                    <option value="precios">Consulta de precios</option>
-                    <option value="distribucion">Distribución y ventas</option>
-                    <option value="otro">Otro</option>
-                </select>
-            </div>
-
-            <div class="campo campo-mensaje">
-                <label for="mensaje">Mensaje</label>
-                <textarea
-                    id="mensaje"
-                    name="mensaje"
-                    rows="5"
-                    placeholder="Escribe tu consulta aquí..."
-                    required
-                ></textarea>
-            </div>
-
-            <button type="submit" class="btn-contacto">
-                Enviar mensaje
-            </button>
-        </form>
-    </section>
     <footer>
         <p>&copy; 2026 Giovany Apaza. Todos los derechos reservados.</p>
     </footer>
