@@ -2,8 +2,6 @@ const formulario = document.querySelector('.formulario-contacto');
 const mensajeError = document.getElementById('mensaje-error');
 
 formulario.addEventListener('submit', (e) => {
-    e.preventDefault();
-
     const nombre = document.getElementById('nombre').value.trim();
     const correo = document.getElementById('correo').value.trim();
     const asunto = document.getElementById('asunto').value;
@@ -31,14 +29,10 @@ formulario.addEventListener('submit', (e) => {
     }
 
     if (errores.length > 0) {
+        e.preventDefault(); 
         mensajeError.innerHTML = errores.join('<br>');
         mensajeError.className = 'mensaje-error visible';
-        return;
     }
-
-    mensajeError.textContent = '✅ Mensaje enviado correctamente.';
-    mensajeError.className = 'mensaje-error exito';
-    formulario.reset();
 });
 
 const menuCheck = document.getElementById('menu');
