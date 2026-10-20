@@ -40,3 +40,12 @@ formulario.addEventListener('submit', (e) => {
     mensajeError.className = 'mensaje-error exito';
     formulario.reset();
 });
+
+const menuCheck = document.getElementById('menu');
+const enlacesMenu = document.querySelectorAll('.navbar ul li a');
+
+enlacesMenu.forEach((enlace) => {
+    enlace.addEventListener('click', () => {
+        menuCheck.checked = false;
+    });
+});
